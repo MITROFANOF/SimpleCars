@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 427681c734587fa428c9380aa391e9ad
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - wheel: {instanceID: 0}
+  - info: {instanceID: 0}
+  - engine: {fileID: 11400000, guid: 27ba787a8640d9c4588bde83d3b1e7c3, type: 2}
+  - clutch: {instanceID: 0}
+  - gearbox: {instanceID: 0}
+  - "transfer\u0421ase": {instanceID: 0}
+  - reducer: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
