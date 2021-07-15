@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8efae7ac770ec9543b8519ce7ecc81b3, type: 3}
   m_Name: BMW M5 E60 Gearbox
   m_EditorClassIdentifier: 
-  GearRatio:
-  - -3.62
+  gearRatio:
+  - -3.99
   - 0
   - 3.99
   - 2.65

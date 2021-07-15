@@ -1,105 +1,106 @@
-﻿using UnityEngine;
+﻿using Scenes.Test.Transmission_Components.Scripts;
+using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
-public class Transmission : MonoBehaviour
+namespace Scenes.Test.Scripts
 {
-    public HingeJoint2D wheel;
-    public Text info;
-    [SerializeField] private Engine engine;
-    [SerializeField] private Clutch clutch;
-    [SerializeField] private Gearbox gearbox;
-    [SerializeField] private TransferCase transferСase;
-    [SerializeField] private Reducer reducer;
-    private JointMotor2D wheelMotor;
-    [SerializeField] private Rigidbody2D wheelRB;
-    private Rigidbody2D car;
-    private readonly float airDensity = 1.225f;
-
-    private float wheelTorque, wheelSpeed, rpm;
-    private int gear;
-
-    private InputMaster controls;
-    private float accelerateValue, clutchValue;
-
-    private void Awake()
+    public class Transmission : MonoBehaviour
     {
-        engine.Init();
-        car = GetComponentInParent<Rigidbody2D>();
-        controls = new InputMaster();
-        controls.Vehicle.Accelerate.performed += ctx => accelerateValue = ctx.ReadValue<float>();
-        controls.Vehicle.Clutch.performed += ctx => clutchValue = ctx.ReadValue<float>();
-        controls.Vehicle.GearUp.performed += ctx => GearUp();
-        controls.Vehicle.GearDown.performed += ctx => GearDown();
-    }
+        public HingeJoint2D wheel;
+        public Text info;
+        [SerializeField] private Engine engine;
+        [SerializeField] private Clutch clutch;
+        [SerializeField] private Gearbox gearbox;
+        [SerializeField] private TransferCase transferСase;
+        [SerializeField] private Reducer reducer;
+        private JointMotor2D _wheelMotor;
+        [FormerlySerializedAs("wheelRB")] [SerializeField] private Rigidbody2D wheelRigidbody;
+        private Rigidbody2D _car;
+        private const float AirDensity = 1.225f;
 
-    private void FixedUpdate()
-    {
-        engine.AccelerateInput(accelerateValue);
-        //clutch.ClutchInput(clutchValue);
-        wheelMotor.maxMotorTorque = CalcTorque();
-        wheelMotor.motorSpeed = CalcSpeed();
-        wheel.motor = wheelMotor;
-        car.AddForce(AirDrag(car.velocity, 0.3f, 2.5f));
-        car.AddForce(RoadDrag(car.velocity, car.mass, 0.029f));
-        rpm = -wheelRB.angularVelocity / 6f * reducer.finalDrive * transferСase.finalDrive * gearbox.GearRatio[gear + 1];
-        info.text = $"Скорость: {Mathf.Round(car.velocity.magnitude * 3.6f)} км/ч \nПередача: {gear}\nRPM: {rpm}";
-    }
+        private float _wheelTorque, _wheelSpeed, _rpm;
+        private int _gear;
 
-    private float CalcTorque()
-    {
-        wheelTorque = engine.CalcTorque(rpm);
-        wheelTorque = clutch.CalcTorque(wheelTorque);
-        wheelTorque = gearbox.CalcTorque(wheelTorque, gear);
-        wheelTorque = transferСase.CalcTorque(wheelTorque);
-        wheelTorque = reducer.CalcTorque(wheelTorque);
-        return wheelTorque;
-    }
+        private InputMaster _controls;
+        private float _accelerateValue, _clutchValue;
 
-    private float CalcSpeed()
-    {
-        wheelSpeed = engine.CrankshaftSpeed;
-        wheelSpeed = gearbox.CalcSpeed(wheelSpeed, gear);
-        wheelSpeed = transferСase.CalcSpeed(wheelSpeed);
-        wheelSpeed = reducer.CalcSpeed(wheelSpeed);
-        return wheelSpeed;
-    }
-
-    private void GearUp()
-    {
-        if (gear < gearbox.GearRatio.Length - 2)
+        private void Awake()
         {
-            gear++;
+            engine.Init();
+            _car = GetComponentInParent<Rigidbody2D>();
+            _controls = new InputMaster();
+            _controls.Vehicle.Accelerate.performed += ctx => _accelerateValue = ctx.ReadValue<float>();
+            _controls.Vehicle.Clutch.performed += ctx => _clutchValue = ctx.ReadValue<float>();
+            _controls.Vehicle.GearUp.performed += ctx => GearUp();
+            _controls.Vehicle.GearDown.performed += ctx => GearDown();
+        }
+
+        private void Update()
+        {
+            engine.AccelerateInput(_accelerateValue);
+            //clutch.ClutchInput(clutchValue);
+            _wheelMotor.maxMotorTorque = CalcTorque();
+            _wheelMotor.motorSpeed = CalcSpeed();
+            wheel.motor = _wheelMotor;
+            _car.AddForce(AirDrag(_car.velocity, 0.3f, 2.5f));
+            _car.AddForce(RoadDrag(_car.velocity, _car.mass, 0.029f));
+            _rpm = -wheelRigidbody.angularVelocity / 6f * reducer.finalDrive * transferСase.finalDrive * gearbox.gearRatio[_gear + 1];
+            info.text = $"Speed: {Mathf.Round(_car.velocity.magnitude * 3.6f)} km/h \nGear: {_gear}\nRPM: {_rpm}";
+        }
+
+        private float CalcTorque()
+        {
+            _wheelTorque = engine.CalcTorque(_rpm);
+            _wheelTorque = clutch.CalcTorque(_wheelTorque);
+            _wheelTorque = gearbox.CalcTorque(_wheelTorque, _gear);
+            _wheelTorque = transferСase.CalcTorque(_wheelTorque);
+            _wheelTorque = reducer.CalcTorque(_wheelTorque);
+            return _wheelTorque;
+        }
+
+        private float CalcSpeed()
+        {
+            _wheelSpeed = engine.CrankshaftSpeed;
+            _wheelSpeed = gearbox.CalcSpeed(_wheelSpeed, _gear);
+            _wheelSpeed = transferСase.CalcSpeed(_wheelSpeed);
+            _wheelSpeed = reducer.CalcSpeed(_wheelSpeed);
+            return _wheelSpeed;
+        }
+
+        private void GearUp()
+        {
+            if (_gear >= gearbox.gearRatio.Length - 2) return;
+            _gear++;
             StartCoroutine(clutch.GearSwitchDelay(0.065f));
         }
-    }
 
-    private void GearDown()
-    {
-        if (gear > -1)
+        private void GearDown()
         {
-            gear--;
+            if (_gear <= -1) return;
+            _gear--;
             StartCoroutine(clutch.GearSwitchDelay(0.065f));
         }
-    }
 
-    private Vector2 AirDrag(Vector2 velocity, float C, float S)
-    {
-        return -C * S * airDensity  * velocity * new Vector2(Mathf.Abs(velocity.x), Mathf.Abs(velocity.y)) / 2f;
-    }
-    private Vector2 RoadDrag(Vector2 velocity, float mass, float C)
-    {
-        return -C * velocity.normalized * mass * 9.81f;
-    }
-
-
-    private void OnEnable()
-    {
-        controls.Enable();
-    }
-    private void OnDisable()
-    {
-        controls.Disable();
-    }
+        private Vector2 AirDrag(Vector2 velocity, float C, float S)
+        {
+            return -C * S * AirDensity  * velocity * new Vector2(Mathf.Abs(velocity.x), Mathf.Abs(velocity.y)) / 2f;
+        }
+        private Vector2 RoadDrag(Vector2 velocity, float mass, float C)
+        {
+            return velocity.normalized * (-C * mass * 9.81f);
+        }
 
 
+        private void OnEnable()
+        {
+            _controls.Enable();
+        }
+        private void OnDisable()
+        {
+            _controls.Disable();
+        }
+
+
+    }
 }

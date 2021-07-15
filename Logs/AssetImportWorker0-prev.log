@@ -1,0 +1,494 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.2f1 (8fd9074bf66c) revision 9427207'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.867; Version 2009; 64bit' Language: 'en' Physical Memory: 16320 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/vanyo/Documents/GitHub/SimpleCars
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56842
+Successfully changed project path to: C:/Users/vanyo/Documents/GitHub/SimpleCars
+C:/Users/vanyo/Documents/GitHub/SimpleCars
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 40.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/vanyo/Documents/GitHub/SimpleCars/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 Ti (ID=0x1b82)
+    Vendor:   
+    VRAM:     8079 MB
+    Driver:   27.21.14.6259
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56908
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001862 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 41.89 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.774 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001205 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 43.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.913 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2369 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.5 MB.
+System memory in use after: 116.7 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2820.
+Total: 2.637200 ms (FindLiveObjects: 0.673100 ms CreateObjectMapping: 0.259000 ms MarkObjects: 1.682200 ms  DeleteObjects: 0.021800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '819a33a9bd799f71faca6db75e8a216c') in 0.016174 seconds
+  Import took 0.020860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.643084 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '819a33a9bd799f71faca6db75e8a216c') in 0.003373 seconds
+  Import took 0.009656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.449758 seconds.
+  path: Assets/New 2D Renderer Data.asset
+  artifactKey: Guid(f508e10b2ebf3644e989159fe2822268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New 2D Renderer Data.asset using Guid(f508e10b2ebf3644e989159fe2822268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfa08d0e3e1acc97402d405b3b7ba1ec') in 0.055866 seconds
+  Import took 0.060374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.633749 seconds.
+  path: Assets/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(2481263d6324aae479a39a9c3df83f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineAsset.asset using Guid(2481263d6324aae479a39a9c3df83f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '998f6bf98394c22cdad00b5c3d9a4d9b') in 0.030337 seconds
+  Import took 0.034214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/UniversalRenderPipelineAsset_Renderer.asset
+  artifactKey: Guid(c7af26f0f3750514f81bd532bc720867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineAsset_Renderer.asset using Guid(c7af26f0f3750514f81bd532bc720867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c462e383809e436bf61dfb3d971f9059') in 0.021163 seconds
+  Import took 0.024929 seconds .
+
+========================================================================
+Received Prepare
+Switching render pipeline 00000000000000000000000000000000 -> 2481263d6324aae479a39a9c3df83f4d
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.9 MB.
+System memory in use after: 68.1 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2868.
+Total: 3.252400 ms (FindLiveObjects: 0.240400 ms CreateObjectMapping: 0.097700 ms MarkObjects: 2.890000 ms  DeleteObjects: 0.023000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:srp/default-shader: 0000e00a000e0de00000e000e02d0000 -> 0000e00a000e0de00000e000e0000000
+========================================================================
+Received Import Request.
+  Time since last request: 51.854913 seconds.
+  path: Assets/New 2D Renderer Data.asset
+  artifactKey: Guid(f508e10b2ebf3644e989159fe2822268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New 2D Renderer Data.asset using Guid(f508e10b2ebf3644e989159fe2822268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9563da278c677169c587cfe2ac7bf729') in 0.008329 seconds
+  Import took 0.013543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.925429 seconds.
+  path: Assets/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(2481263d6324aae479a39a9c3df83f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineAsset.asset using Guid(2481263d6324aae479a39a9c3df83f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9180653e5c111d22c1c704bc5d5c2c0b') in 0.002294 seconds
+  Import took 0.005962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/UniversalRenderPipelineAsset_Renderer.asset
+  artifactKey: Guid(c7af26f0f3750514f81bd532bc720867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineAsset_Renderer.asset using Guid(c7af26f0f3750514f81bd532bc720867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd0192cb33050c85684522211893640b') in 0.003237 seconds
+  Import took 0.007261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.626535 seconds.
+  path: Assets/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(2481263d6324aae479a39a9c3df83f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineAsset.asset using Guid(2481263d6324aae479a39a9c3df83f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '691ac0059da5fb64dd991e4513e6c606') in 0.003371 seconds
+  Import took 0.006832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/UniversalRenderPipelineAsset_Renderer.asset
+  artifactKey: Guid(c7af26f0f3750514f81bd532bc720867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineAsset_Renderer.asset using Guid(c7af26f0f3750514f81bd532bc720867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3ca7cecc0c615de400ac42a4bb17d34') in 0.003239 seconds
+  Import took 0.007208 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.5 MB.
+System memory in use after: 66.7 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2872.
+Total: 2.880200 ms (FindLiveObjects: 0.439500 ms CreateObjectMapping: 0.233100 ms MarkObjects: 2.191900 ms  DeleteObjects: 0.014700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:srp/default-shader: 00a0da0d000000000000000000000000 -> 0000e00a000e0de00000e000e02d0000
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.4 MB.
+System memory in use after: 66.6 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2872.
+Total: 5.392100 ms (FindLiveObjects: 0.505600 ms CreateObjectMapping: 0.292500 ms MarkObjects: 4.566500 ms  DeleteObjects: 0.025600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 264.236745 seconds.
+  path: Assets/Scenes/Test/InputMaster.inputactions
+  artifactKey: Guid(b8b48ec7d032a514da1516a6b9b40836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test/InputMaster.inputactions using Guid(b8b48ec7d032a514da1516a6b9b40836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf79787576f7655bbb80d3c2dbe7dff') in 0.015607 seconds
+  Import took 0.020292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Scenes/Test/PostProcessing Profile.asset
+  artifactKey: Guid(5e2890465b8e8c34886082e68b918ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test/PostProcessing Profile.asset using Guid(5e2890465b8e8c34886082e68b918ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf3bc3727514c23583bddffaf1a5281') in 0.020603 seconds
+  Import took 0.024211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.529468 seconds.
+  path: Assets/Scenes/Test/Materials/Paint.mat
+  artifactKey: Guid(6e57b6c7663ce9b4785ae2687b3fe3ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test/Materials/Paint.mat using Guid(6e57b6c7663ce9b4785ae2687b3fe3ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '322f81df0292965305f80aaf8769605a') in 0.182451 seconds
+  Import took 0.186260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 371.062007 seconds.
+  path: Assets/Scenes/Test/Sprites/BMW M5 E60/Chassis.png
+  artifactKey: Guid(5397448a4aeec2b4dac72335a370ab1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test/Sprites/BMW M5 E60/Chassis.png using Guid(5397448a4aeec2b4dac72335a370ab1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de2096d91fd11e0dac8bfe39cf8ecfe') in 0.063721 seconds
+  Import took 0.068002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Scenes/Test/Sprites/BMW M5 E60/Paint.png
+  artifactKey: Guid(a3a9a9978ebc4824a883e11dd0621d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test/Sprites/BMW M5 E60/Paint.png using Guid(a3a9a9978ebc4824a883e11dd0621d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffcebb1b47f07f35277e1457cc7174e4') in 0.015683 seconds
+  Import took 0.019633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Scenes/Test/Sprites/BMW M5 E60/Chassis.png
+  artifactKey: Guid(5397448a4aeec2b4dac72335a370ab1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test/Sprites/BMW M5 E60/Chassis.png using Guid(5397448a4aeec2b4dac72335a370ab1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de2096d91fd11e0dac8bfe39cf8ecfe') in 0.006674 seconds
+  Import took 0.010694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Scenes/Test/Test/ReflectionProbe-0.exr
+  artifactKey: Guid(3b5900c5569d24a48ae190abeca8d0d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test/Test/ReflectionProbe-0.exr using Guid(3b5900c5569d24a48ae190abeca8d0d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4beeb1672a4c696808a39c6a2034008b') in 0.064053 seconds
+  Import took 0.067820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Scenes/Test/Sprites/Road.jpg
+  artifactKey: Guid(2bc8b6e80a1e7f34aa8bb1aa8c3a5325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test/Sprites/Road.jpg using Guid(2bc8b6e80a1e7f34aa8bb1aa8c3a5325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c903d3636b62a3627539cacc02842133') in 0.023716 seconds
+  Import took 0.027770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Scenes/Test/Sprites/BMW M5 E60/Detals.png
+  artifactKey: Guid(e2843dead8ea31c46bddc34821adf619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test/Sprites/BMW M5 E60/Detals.png using Guid(e2843dead8ea31c46bddc34821adf619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1a73dd5c827231349fa470e57c29038') in 0.013404 seconds
+  Import took 0.017611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Scenes/Test/Sprites/BMW M5 E60/Windows.png
+  artifactKey: Guid(4d719e853f50c684db61bb2a5475b667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test/Sprites/BMW M5 E60/Windows.png using Guid(4d719e853f50c684db61bb2a5475b667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa27d6777a8c12ed72d3c75cb0a865ad') in 0.013811 seconds
+  Import took 0.018628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Scenes/Test/Sprites/BMW M5 E60/Wheels.png
+  artifactKey: Guid(22442deb8d6a2f343b3bc9194a456517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test/Sprites/BMW M5 E60/Wheels.png using Guid(22442deb8d6a2f343b3bc9194a456517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a75e68b0a692d640d175b4751c08e9ec') in 0.015267 seconds
+  Import took 0.018898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.013554 seconds.
+  path: Assets/Scenes/Test/Sprites/BMW M5 E60
+  artifactKey: Guid(256df711155600e44b140266e732a822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test/Sprites/BMW M5 E60 using Guid(256df711155600e44b140266e732a822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c552872b5a0eab69617568cf9b5c4c1') in 0.009215 seconds
+  Import took 0.012578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 396.341993 seconds.
+  path: Assets/Scenes/Test/Sprites/BMW M5 E60/Detals1.png
+  artifactKey: Guid(1578b7f3f8a32e34c95608321128d226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test/Sprites/BMW M5 E60/Detals1.png using Guid(1578b7f3f8a32e34c95608321128d226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1679ce5d575158659d6a60eeceba6804') in 0.018347 seconds
+  Import took 0.022316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.860294 seconds.
+  path: Assets/Scenes/Test/Sprites/BMW M5 E60/Detals1.png
+  artifactKey: Guid(1578b7f3f8a32e34c95608321128d226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test/Sprites/BMW M5 E60/Detals1.png using Guid(1578b7f3f8a32e34c95608321128d226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa714658655c5f33d0649db026219b5e') in 0.008440 seconds
+  Import took 0.012289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.996499 seconds.
+  path: Assets/Scenes/Test/Sprites/BMW M5 E60/Detals1.png
+  artifactKey: Guid(1578b7f3f8a32e34c95608321128d226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test/Sprites/BMW M5 E60/Detals1.png using Guid(1578b7f3f8a32e34c95608321128d226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5afc123b05ac123b0e2aa441663a658c') in 0.008110 seconds
+  Import took 0.012294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.630957 seconds.
+  path: Assets/Scenes/Test/Sprites/BMW M5 E60/Detals1.png
+  artifactKey: Guid(1578b7f3f8a32e34c95608321128d226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test/Sprites/BMW M5 E60/Detals1.png using Guid(1578b7f3f8a32e34c95608321128d226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56f85592491ec7e484087c1d400e5353') in 0.007090 seconds
+  Import took 0.011877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.340077 seconds.
+  path: Assets/Scenes/Test/Sprites/BMW M5 E60/Detals1.png
+  artifactKey: Guid(1578b7f3f8a32e34c95608321128d226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test/Sprites/BMW M5 E60/Detals1.png using Guid(1578b7f3f8a32e34c95608321128d226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e21b4352742a3e76e1fbab40d4a8ccb') in 0.008766 seconds
+  Import took 0.012822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002851 seconds.
+  path: Assets/Scenes/Test/Sprites/BMW M5 E60/Detals1.png
+  artifactKey: Guid(1578b7f3f8a32e34c95608321128d226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test/Sprites/BMW M5 E60/Detals1.png using Guid(1578b7f3f8a32e34c95608321128d226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e21b4352742a3e76e1fbab40d4a8ccb') in 0.007696 seconds
+  Import took 0.011909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.264526 seconds.
+  path: Assets/Scenes/Test/Sprites/BMW M5 E60/Detals1.png
+  artifactKey: Guid(1578b7f3f8a32e34c95608321128d226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test/Sprites/BMW M5 E60/Detals1.png using Guid(1578b7f3f8a32e34c95608321128d226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07021f26f47f64d89b98cfab056608ea') in 0.007368 seconds
+  Import took 0.011789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.347976 seconds.
+  path: Assets/Scenes/Test/Sprites/BMW M5 E60/Detals1.png
+  artifactKey: Guid(1578b7f3f8a32e34c95608321128d226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test/Sprites/BMW M5 E60/Detals1.png using Guid(1578b7f3f8a32e34c95608321128d226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3763a5df11b90fb4bf1d93260689e98e') in 0.007432 seconds
+  Import took 0.011227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.523232 seconds.
+  path: Assets/Scenes/Test/Sprites/BMW M5 E60/Paint.png
+  artifactKey: Guid(a3a9a9978ebc4824a883e11dd0621d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test/Sprites/BMW M5 E60/Paint.png using Guid(a3a9a9978ebc4824a883e11dd0621d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd92b1e0da87d6dc9ce0a035b5ecacf60') in 0.008052 seconds
+  Import took 0.012878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.811175 seconds.
+  path: Assets/Scenes/Test/Sprites/BMW M5 E60/Detals.png
+  artifactKey: Guid(e2843dead8ea31c46bddc34821adf619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test/Sprites/BMW M5 E60/Detals.png using Guid(e2843dead8ea31c46bddc34821adf619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2b2ad316439f7348c0f665097d205dd') in 0.009189 seconds
+  Import took 0.012944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025149 seconds.
+  path: Assets/Scenes/Test/Sprites/BMW M5 E60/Detals.png
+  artifactKey: Guid(e2843dead8ea31c46bddc34821adf619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test/Sprites/BMW M5 E60/Detals.png using Guid(e2843dead8ea31c46bddc34821adf619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2b2ad316439f7348c0f665097d205dd') in 0.009482 seconds
+  Import took 0.013491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.934051 seconds.
+  path: Assets/Scenes/Test/Sprites/BMW M5 E60/Windows.png
+  artifactKey: Guid(4d719e853f50c684db61bb2a5475b667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test/Sprites/BMW M5 E60/Windows.png using Guid(4d719e853f50c684db61bb2a5475b667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ed1b2f42f414ab70cde0d155e0cca30') in 0.006755 seconds
+  Import took 0.010465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.445433 seconds.
+  path: Assets/Scenes/Test/Sprites/BMW M5 E60/Detals.png
+  artifactKey: Guid(e2843dead8ea31c46bddc34821adf619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test/Sprites/BMW M5 E60/Detals.png using Guid(e2843dead8ea31c46bddc34821adf619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb1dfa9229d8a141ddd47817221c71b5') in 0.011794 seconds
+  Import took 0.016213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.558762 seconds.
+  path: Assets/New Shader Graph.shadergraph
+  artifactKey: Guid(ba5203f78ec5a034c9be0eb101171cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Shader Graph.shadergraph using Guid(ba5203f78ec5a034c9be0eb101171cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cabe3184de85c2ff6f1a5efa52067c1') in 0.011909 seconds
+  Import took 0.017196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.122633 seconds.
+  path: Assets/New Shader Graph.shadergraph
+  artifactKey: Guid(ba5203f78ec5a034c9be0eb101171cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Shader Graph.shadergraph using Guid(ba5203f78ec5a034c9be0eb101171cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cabe3184de85c2ff6f1a5efa52067c1') in 0.003165 seconds
+  Import took 0.007491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.853507 seconds.
+  path: Assets/Sprite Glow Unlit.shadergraph
+  artifactKey: Guid(ba5203f78ec5a034c9be0eb101171cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite Glow Unlit.shadergraph using Guid(ba5203f78ec5a034c9be0eb101171cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '156df2b729a9ad47de364835479b4685') in 0.010503 seconds
+  Import took 0.014401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.939547 seconds.
+  path: Assets/BMW.mat
+  artifactKey: Guid(84f64a1700cd16d4b9c47e861d304452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BMW.mat using Guid(84f64a1700cd16d4b9c47e861d304452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c37642bbefeb54a0d09952adc5848a44') in 0.016240 seconds
+  Import took 0.019817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 256.277688 seconds.
+  path: Assets/BMW.mat
+  artifactKey: Guid(84f64a1700cd16d4b9c47e861d304452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BMW.mat using Guid(84f64a1700cd16d4b9c47e861d304452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c19793c3322ef5f676e824f274dff39b') in 0.016259 seconds
+  Import took 0.019933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.602275 seconds.
+  path: Assets/Sprite Glow Unlit.shadergraph
+  artifactKey: Guid(ba5203f78ec5a034c9be0eb101171cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite Glow Unlit.shadergraph using Guid(ba5203f78ec5a034c9be0eb101171cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b92daaef7f71d847f28c62584318a75f') in 0.003203 seconds
+  Import took 0.008253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1016.506585 seconds.
+  path: Assets/Scenes/Test/Sprites/BMW M5 E60/Detals.png
+  artifactKey: Guid(e2843dead8ea31c46bddc34821adf619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test/Sprites/BMW M5 E60/Detals.png using Guid(e2843dead8ea31c46bddc34821adf619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9957a3b883c70c74cae13754a24d27c2') in 0.020780 seconds
+  Import took 0.026041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008974 seconds.
+  path: Assets/Scenes/Test/Sprites/BMW M5 E60/Detals.png
+  artifactKey: Guid(e2843dead8ea31c46bddc34821adf619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test/Sprites/BMW M5 E60/Detals.png using Guid(e2843dead8ea31c46bddc34821adf619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9957a3b883c70c74cae13754a24d27c2') in 0.010944 seconds
+  Import took 0.015367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 129.427544 seconds.
+  path: Assets/Scenes/Test/Sprites/BMW M5 E60/New Shader Graph.shadergraph
+  artifactKey: Guid(b8ee224b75087994bb0ccf4d16be253b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test/Sprites/BMW M5 E60/New Shader Graph.shadergraph using Guid(b8ee224b75087994bb0ccf4d16be253b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e24afc2f1498dd0468039c3ba33ca7d5') in 0.003368 seconds
+  Import took 0.008183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.137875 seconds.
+  path: Assets/Scenes/Test/Sprites/BMW M5 E60/New Shader Graph.shadergraph
+  artifactKey: Guid(b8ee224b75087994bb0ccf4d16be253b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test/Sprites/BMW M5 E60/New Shader Graph.shadergraph using Guid(b8ee224b75087994bb0ccf4d16be253b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e24afc2f1498dd0468039c3ba33ca7d5') in 0.003145 seconds
+  Import took 0.007296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1259.983340 seconds.
+  path: Assets/Scenes/Test/Sprites/BMW M5 E60/Paint.png
+  artifactKey: Guid(a3a9a9978ebc4824a883e11dd0621d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test/Sprites/BMW M5 E60/Paint.png using Guid(a3a9a9978ebc4824a883e11dd0621d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d291be8efcd23761127ef7a587a0f85') in 0.022489 seconds
+  Import took 0.026479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.956473 seconds.
+  path: Assets/Scenes/Test/Sprites/BMW M5 E60/Paint.png
+  artifactKey: Guid(a3a9a9978ebc4824a883e11dd0621d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test/Sprites/BMW M5 E60/Paint.png using Guid(a3a9a9978ebc4824a883e11dd0621d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1861b3f0a92a86d2a7722e0cadb162bb') in 0.014520 seconds
+  Import took 0.018569 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
