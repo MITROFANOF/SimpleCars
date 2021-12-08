@@ -58,3 +58,13 @@ The following packages were added:
 The following packages were updated:
   com.unity.2d.spriteshape from version 3.0.11 to 5.1.1
   com.unity.inputsystem from version 1.0.0 to 1.0.2
+
+=== Fri Sep 24 21:34:30 2021
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.2d.spriteshape from version 5.1.2 to 5.1.4
+  com.unity.ide.visualstudio from version 2.0.9 to 2.0.11
+  com.unity.render-pipelines.universal from version 10.4.0 to 10.6.0
